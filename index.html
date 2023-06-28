@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bank</title>
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <form action="">
+          <input type="text" id="amount" placeholder="Input amount" />
+          <select id="transaction-type">
+            <option value=""></option>
+            <option value="credit">Credit</option>
+            <option value="debit">Debit</option>
+          </select>
+          <button id="create-transaction" type="button">
+            Create transaction
+          </button>
+        </form>
+      </div>
+      <span>
+        <p>Your account(s)</p>
+        <div>
+          <h4>Checking...XXXX7890</h4>
+          <p id="current-balance">200.45</p>
+        </div>
+      </span>
+      <div class="content">
+        <h3>Recent Transactions</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Desc.</th>
+              <th>Amount</th>
+              <th>Balance</th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <tr>
+              <th>June 25</th>
+              <th>Deposit</th>
+              <th>180.00</th>
+              <th>200.45</th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <script async src="main.js"></script>
+  </body>
+</html>
