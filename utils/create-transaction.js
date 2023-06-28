@@ -11,7 +11,13 @@ export function createTransaction() {
   let newRow = document.createElement("tr");
   let tableData1 = document.createElement("td");
   tableData1.classList.add("des");
-  tableData1.textContent = console.log(new Date().getUTCDate());
+  let date = new Date();
+  let formatter = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+  });
+  let formattedDate = formatter.format(date);
+  tableData1.textContent = formattedDate;
 
   let tableData2 = document.createElement("td");
   tableData2.classList.add("des");
