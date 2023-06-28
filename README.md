@@ -2,7 +2,11 @@
 
 This project demonstrates how JavaScript can be used to update a bank account. It provides a simple web application interface built with HTML, CSS, and JavaScript, allowing users to manage their bank account transactions.
 
-![Bank Account Manager Demo](https://github.com/vulpes231/bank_demo/assets/94878993/c7be79bf-1f4c-4e2d-9ec5-d95b208961e4)
+
+
+https://github.com/vulpes231/bank_demo/assets/94878993/60d308d9-d381-430e-82df-b7ab289379cc
+
+
 
 ## Features
 
